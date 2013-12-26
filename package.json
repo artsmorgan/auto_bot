@@ -1,0 +1,26 @@
+{
+  "name": "curl-test",
+  "description": "curl-test from copart",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artsmorgan/Autosubastas.git"
+  },
+  "keywords": [
+    "Node",
+    "cUrl",
+    "express",
+    "autosubastas"
+  ],
+  "author": "alexander morgan",
+  "license": "BSD"
+}
