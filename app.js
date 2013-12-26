@@ -416,11 +416,11 @@ app.get('/getCarListPagination/:make/:model/:yearFrom/:yearTo/:page', function(r
         var _href, _parsedHref;
         $('.paging > li > a').each(function(){
             if(!isNaN($(this).text()) ){
-                $(this).attr('href','/busqueda/'+req.params.make+'/'+req.params.model+'/'+_yearFrom+'/'+_yearTo+'/'+$(this).text());
+                $(this).attr('href','/busquedas/'+req.params.make+'/'+req.params.model+'/'+_yearFrom+'/'+_yearTo+'/'+$(this).text());
             }else{
                 _href =  $(this).attr('href');
                 _parsedHref = _href.split('Page=');
-                $(this).attr('href','/busqueda/'+req.params.make+'/'+req.params.model+'/'+_yearFrom+'/'+_yearTo+'/'+_parsedHref[1]);
+                $(this).attr('href','/busquedas/'+req.params.make+'/'+req.params.model+'/'+_yearFrom+'/'+_yearTo+'/'+_parsedHref[1]);
             }
         });
         $( ".paging > li" ).last().remove();
