@@ -441,10 +441,10 @@ app.get('/getCarListPagination/:make/:model/:yearFrom/:yearTo/:page', function(r
 
 //Get MotorCicles
 
-app.get('/getMotorcicleList/', function(req, res){
+app.get('/getMotorcicleList/:page', function(req, res){
 
 
-    var _url = domain + 'search?companyCode_vf=US&LotTypes=C&YearFrom=2003&YearTo=2014&Make=&RadioGroup=Location&YardNumber=&States=&PostalCode=&Distance=0&searchTitle=&cn=';
+    var _url = domain + 'search?companyCode_vf=US&LotTypes=C&YearFrom=2003&YearTo=2014&Make=&RadioGroup=Location&YardNumber=&States=&PostalCode=&Distance=0&searchTitle=&cn=&Page='+req.params.page;
     var options = { url: _url, include: true };
     var _data = '';
 
@@ -506,8 +506,8 @@ app.get('/getMotorcicleList/', function(req, res){
 
 
 });
-app.get('/getMotorcicleListPagination/', function(req, res){
-    var _url = domain + 'search?companyCode_vf=US&LotTypes=C&YearFrom=2003&YearTo=2014&Make=&RadioGroup=Location&YardNumber=&States=&PostalCode=&Distance=0&searchTitle=&cn=';
+app.get('/getMotorcicleListPagination/:page', function(req, res){
+    var _url = domain + 'search?companyCode_vf=US&LotTypes=C&YearFrom=2003&YearTo=2014&Make=&RadioGroup=Location&YardNumber=&States=&PostalCode=&Distance=0&searchTitle=&cn=&Page='+req.params.page;
     var options = { url: _url, include: true };
     var _data = '';
 
