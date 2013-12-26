@@ -80,7 +80,8 @@ app.get('/busqueda/:search', function(req, res){
             listLocation = $(this).find('.results-last-col .location-block').text();
 
             listLot = parseData(listLot);
-            listLot = listLot.replace(/[^\d.]/g, "");
+            if(listLot != 'undefined' || listLot != null ||listLot != '' )
+                listLot = listLot.replace(/[^\d.]/g, "");
 
             listItem = {
                 "CarTitle" : CarTitle,
