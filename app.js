@@ -40,12 +40,13 @@ function parseHtml(html){
 
 
 //free search
-app.get('/busqueda/:search', function(req, res){
+app.get('/busqueda/:search/:page', function(req, res){
     var str = req.params.search;
+    var page = req.params.page;
     var replaced = str.split(' ').join('+');
     console.log(replaced);
 
-    var _url = domain +'search?q=' + replaced;
+    var _url = domain +'search?q=' + replaced + '&page='+page;
     var options = { url: _url, include: true };
     var _data = '';
 
