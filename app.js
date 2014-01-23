@@ -81,6 +81,7 @@ app.get('/busqueda/:search/:page', function(req, res){
             listLocation = $(this).find('.results-last-col .location-block').text();
 
             listLot = parseData(listLot);
+            //undefined var
             if(typeof(listLot) !== undefined || listLot != null ||listLot != '' ){
                 listLot = listLot.replace(/[^\d.]/g, "");
                 console.log(listLot);
