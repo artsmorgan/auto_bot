@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" name="Default" comment="" />
+    <ignored path="curl-test.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1388944292742" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/mas-visitados.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389754673613" ignored="false" />
+    <file path="/mas-visitados.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1388944507039" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/js/scratch.common.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389284216938" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/js/scratch.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389294327568" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/internas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389664051496" ignored="false" />
+    <file path="/internas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389664050942" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/vehiculo-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389328405651" ignored="false" />
+    <file path="/vehiculo-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389328384422" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/precotizacion.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389138681557" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/crmCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389140006107" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/dbAdmin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389364960529" ignored="false" />
+    <file path="/crmCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389139711000" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/miembros.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389140176183" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/classes/scratchEngine.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389311963597" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/classes/payRules.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539185514" ignored="false" />
+    <file path="/payRules.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389536068748" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/services/ScratchService.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389328915363" ignored="false" />
+    <file path="/ScratchService.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389289691344" ignored="false" />
+    <file path="/scratch.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389294218607" ignored="false" />
+    <file path="/scratchEngine.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389289591016" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/scracth-gold.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389294303382" ignored="false" />
+    <file path="/scracth-gold.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389294274811" ignored="false" />
+    <file path="/scratch.common.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389284127903" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/classes/ado/dbAdminCashier.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389334553151" ignored="false" />
+    <file path="/dbAdminCashier.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389334552362" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/classes/cashier.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389333386702" ignored="false" />
+    <file path="/cashier.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389333379266" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/css/gold.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389294133285" ignored="false" />
+    <file path="/gold.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389294077860" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/config/routing.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539204350" ignored="false" />
+    <file path="/routing.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539204350" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Controller/adminController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539307348" ignored="false" />
+    <file path="/adminController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539300675" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersScratchCardsCasino.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389296388622" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersScratchCardsMillionarie.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389296399230" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersScratchCardsEaster.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389296456277" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersScratchCards.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389296544636" ignored="false" />
+    <file path="/membersScratchCards.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389296538242" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scyphos/scyphos.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539230496" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/scracth-casino.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389297170217" ignored="false" />
+    <file path="/scracth-casino.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389297114745" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/css/casino.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389297102435" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/scracth-easter.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389298124213" ignored="false" />
+    <file path="/scracth-easter.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389297246142" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/css/easter.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389297396032" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/scracth-millionaire.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389311952988" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/css/millionaire.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389297483188" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scyphos/index.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389333124377" ignored="false" />
+    <file path="/index.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389332654784" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/app/Resources/views/casinoMembersBase.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389312919966" ignored="false" />
+    <file path="/casinoMembersBase.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389312919966" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersSlotsMachine.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539276910" ignored="false" />
+    <file path="/membersSlotsMachine.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539267693" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersSlotsMachineCasino.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389314690681" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/slots/css/slots-vegas.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389315723086" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/slots/slots-vegas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389336426175" ignored="false" />
+    <file path="/slots-vegas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389334097673" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/services/gameService.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389336239739" ignored="false" />
+    <file path="/gameService.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389335771562" ignored="false" />
+    <file path="/scyphos.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389335668217" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/classes/gameEngine.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389555872117" ignored="false" />
+    <file path="/gameEngine.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389335726422" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/classes/ado/dbAdmin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389331021982" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/slots/jqslots.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389336226416" ignored="false" />
+    <file path="/jqslots.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389333692075" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersSlotsMachineIsland.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389490540122" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/slots/css/slots-island.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389490735685" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/slots/slots-island.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389537736916" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersSlotsMachinePirate.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389535912310" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/slots/css/slots-treasure.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389537598105" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/slots/slots-pirateTreasure.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389537767943" ignored="false" />
+    <file path="/slots-pirateTreasure.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389537758571" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersSlotsMachineVegas.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539126363" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersSlotsMachineClassic.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539243909" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/slots/slots-classic.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539406975" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/detalle-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389822273523" ignored="false" />
+    <file path="/detalle-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389662835228" ignored="false" />
+    <file path="/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390492476684" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389662791419" ignored="false" />
+    <file path="/detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389662788335" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/api/controllers/CardsController.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389753076581" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/config/routes.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389753481210" ignored="false" />
+    <file path="/routes.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389753299944" ignored="false" />
+    <file path="/CardsController.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389753074627" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/.tmp/disk.db" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389751701919" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/views/404.ejs" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389751141597" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/api/controllers/CardController.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389761660921" ignored="false" />
+    <file path="/CardController.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389761655706" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/dbConfig.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389754293013" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/api/services/cardService.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389762578122" ignored="false" />
+    <file path="/cardService.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389760112545" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/api/services/dealerService.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389764750954" ignored="false" />
+    <file path="/dealerService.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389764109523" ignored="false" />
+    <file path="/DealerController.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389799136919" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/api/controllers/DealerController.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389799194186" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/clientAuction.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389888600967" ignored="false" />
+    <file path="/clientAuction.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389888580104" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/contacto.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390319215612" ignored="false" />
+    <file path="/contacto.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390319215612" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/faqs.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390320934382" ignored="false" />
+    <file path="/faqs.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390320910549" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/includes/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321288169" ignored="false" />
+    <file path="/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321287678" ignored="false" />
+    <file path="/a.dummy" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321129165" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/css/main.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321321196" ignored="false" />
+    <file path="/main.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321157232" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/includes/footer.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321925041" ignored="false" />
+    <file path="/footer.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321923570" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/index.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390494626960" ignored="false" />
+    <file path="/index.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390494626960" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/js/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390492476684" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/css/app.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390497303050" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/themes/autosub.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390326313941" ignored="false" />
+    <file path="/autosub.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390326313941" ignored="false" />
+    <file path="/app.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390497301849" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="curl-test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="50" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.37777779">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="22" />
+    <option name="width" value="1420" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="curl-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="curl-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="curl-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" name="Default" comment="" />
+      <created>1388944292688</created>
+      <updated>1388944292688</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="22" width="1420" height="860" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="50" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.37777779">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
