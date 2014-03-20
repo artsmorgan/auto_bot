@@ -195,6 +195,165 @@ app.get('/lote/:lot/images', function(req, res){
 });
 
 
+app.get('/lote/:lot/all',function(req,res){
+
+    /*
+
+        Get the images first
+
+     */
+    var str = req.params.lot;
+    var replaced = str.split(' ').join('+');
+    var _url =  domain +'Lot/' + str + '/Photos';
+    var options = { url: _url, include: true };
+    var _data = '';
+
+    var imagesAr = [];
+    var _img;
+
+    var mainObject= {};
+
+    console.log(_url);
+
+
+    curl.request(options, function (err, data) {
+        _data += data;
+        //Start Paring the data
+        $ = cheerio.load(_data);
+
+        var dataArray = [];
+        $('.list-photos li').each(function(index){
+            _img = $(this).find('img').attr('src');
+            imagesAr.push(_img);
+        });
+
+        imagesAr.pop();
+
+        mainObject.images = imagesAr; //JSON.stringify(dataArr)
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        var str = req.params.lot;
+
+        var _url = domain +'Lot/' + str;
+        var options = { url: _url, include: true };
+        var _data = '';
+
+        console.log(_url);
+
+
+        curl.request(options, function (err, data) {
+            _data += data;
+            //Start Paring the data
+            $ = cheerio.load(_data);
+            var _objTitle, _carTitle;
+            var _odometer = '';
+            var _Highlights = '';
+            var _PrimaryDamage = '';
+            var _SecondaryDamage = '';
+            var _EstRetailValue = '';
+            var _VIN = '';
+            var _BodyStyle = '';
+            var _Drive = '';
+            var _EngineType = '';
+            var _Color = '';
+            var _Cylinder = '';
+            var _Fuel = '';
+            var _Location = '';
+            var _SaleDate = '';
+            var _driveStr = '';
+            var dataArray = [];
+            var listItem = {};
+            var dataObj ={};
+            var _count = 0;
+            var saleDateStr = false;
+
+
+            //console.log(data);
+            $('.row').each(function(index){
+
+                if($(this).find('.label').text()=='Odometer'){
+                    _odometer = $(this).find('.lot-content').text();
+                }else if($(this).find('.label').text()=='Highlights'){
+                    _Highlights = $(this).find('.lot-content').text();
+                }else if($(this).find('.label').text()=='Primary Damage'){
+                    _PrimaryDamage = $(this).find('.lot-content').text();
+                }else if($(this).find('.label').text()=='Secondary Damage'){
+                    _SecondaryDamage = $(this).find('.lot-content').text();
+                }else if($(this).find('.label').text()=='Est. Retail Value'){
+                    _EstRetailValue = $(this).find('.lot-content').text();
+                }else if($(this).find('.label').text()=='VIN'){
+                    _VIN = $(this).find('.lot-content').text();
+                }else if($(this).find('.label').text()=='Body Style'){
+                    _BodyStyle = $(this).find('.lot-content').text();
+                }else if($(this).find('.label').text()=='Drive'){
+
+                    _driveStr = $(this).find('.lot-content').text();
+                    _driveStr = _driveStr.replace(/\s/g, "");
+
+
+                    if(_driveStr == 'FRONT-WHEELDRIVE'){
+                        _Drive = '4x2';
+                    }else if(_driveStr == 'FOURBYFOUR'){
+                        _Drive = '4x4';
+                    }else if(_driveStr == 'REAR-WHEELDRIVE'){
+                        _Drive = '4x2';
+                    }else if(_driveStr == 'ALLWHEELDRIBE'){
+                        _Drive = '4x4';
+                    }
+
+                }else if($(this).find('.label').text()=='Engine Type'){
+                    _EngineType = $(this).find('.lot-content').text();
+                }else if($(this).find('.label').text()=='Color'){
+                    _Color = $(this).find('.lot-content').text();
+                }else if($(this).find('.label').text()=='Cylinder'){
+                    _Cylinder = $(this).find('.lot-content').text();
+                }else if($(this).find('.label').text()=='Fuel'){
+                    _Fuel = $(this).find('.lot-content').text();
+                }else if($(this).find('.label').text()=='Location'){
+                    _Location = $(this).find('.lot-content').text();
+                    console.log(_Location);
+                }else if( $(this).find('.label').text().indexOf("Sale Date") > 0){
+                    _SaleDate = $(this).find('.converted-time').attr('data-original-time');
+                }
+            });
+
+
+            dataObj = {
+                'objTitle' : $('#TitleHead').find('h2').text(),
+                'carTitle' : $('.lot-content').contents(":not(:empty)").first().text(),
+                'odometer' : _odometer,
+                'highlight': _Highlights,
+                'PrimaryDamage' : _PrimaryDamage,
+                'SecondaryDamage' : _SecondaryDamage,
+                'EstRetailValue' : _EstRetailValue,
+                'BodyStyle' : _BodyStyle,
+                'Drive' : _Drive,
+                'EngineType' : _EngineType,
+                'Color' : _Color,
+                'Cylinder' : _Cylinder,
+                'Fuel' : _Fuel,
+                'Location' : _Location,
+                'SaleDate' : _SaleDate,
+                'Vin' : _VIN
+
+            }
+
+            mainObject.data = dataObj;
+            //console.log(mainObject);
+           res.jsonp(mainObject); //JSON.stringify(dataArr)
+        });
+
+
+
+
+    });
+
+
+
+
+
+})
+
+
 //Get Car details
 app.get('/lote/:lot', function(req, res){
     var str = req.params.lot;
@@ -584,7 +743,32 @@ app.get('/getMotorcicleListPagination/:page', function(req, res){
     });
 
 
+/***********     VIN DECODER Functions   **************/
 
+app.get('/vin/:vin', function(req, res){
+
+    var _url = 'http://www.decodethis.com/VIN-Decoded/vin/'+req.params.vin;
+//        var _url = iaaiDomain;
+    var options = { url: _url, include: true };
+    var _data = '';
+
+
+
+    curl.request(options, function (err, data) {
+        _data += data;
+        //Start Paring the data
+        $ = cheerio.load(_data);
+        var info = $('.cardata').html();
+
+        var datable = {
+            "data" : '<table class="table vin-table">'+info+'</table>'
+        }
+        /*dataArray.push(pagingObj);*/
+
+        res.jsonp(datable); //JSON.stringify(dataArr)
+    });
+
+});
 
 
 

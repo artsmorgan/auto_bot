@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="curl-test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1388944292742" ignored="false" />
+    <file path="/Dummy.txt" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395270123743" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/mas-visitados.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389754673613" ignored="false" />
     <file path="/mas-visitados.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1388944507039" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/js/scratch.common.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389284216938" ignored="false" />
@@ -17,7 +18,7 @@
     <file path="/vehiculo-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389328384422" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/precotizacion.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389138681557" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/crmCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389140006107" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/dbAdmin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389364960529" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/dbAdmin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393703174057" ignored="false" />
     <file path="/crmCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389139711000" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/miembros.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389140176183" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/classes/scratchEngine.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389311963597" ignored="false" />
@@ -55,7 +56,7 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/scracth-millionaire.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389311952988" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/css/millionaire.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389297483188" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scyphos/index.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389333124377" ignored="false" />
-    <file path="/index.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389332654784" ignored="false" />
+    <file path="/index.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393114383933" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/app/Resources/views/casinoMembersBase.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389312919966" ignored="false" />
     <file path="/casinoMembersBase.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389312919966" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersSlotsMachine.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539276910" ignored="false" />
@@ -84,7 +85,7 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/slots/slots-classic.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539406975" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/detalle-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389822273523" ignored="false" />
     <file path="/detalle-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389662835228" ignored="false" />
-    <file path="/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390492476684" ignored="false" />
+    <file path="/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395277957697" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389662791419" ignored="false" />
     <file path="/detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389662788335" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/api/controllers/CardsController.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389753076581" ignored="false" />
@@ -110,18 +111,58 @@
     <file path="/faqs.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390320910549" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/includes/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321288169" ignored="false" />
     <file path="/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321287678" ignored="false" />
-    <file path="/a.dummy" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321129165" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/css/main.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321321196" ignored="false" />
-    <file path="/main.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321157232" ignored="false" />
+    <file path="/a.dummy" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395271341403" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/css/main.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393114486726" ignored="false" />
+    <file path="/main.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393113754190" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/includes/footer.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321925041" ignored="false" />
     <file path="/footer.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321923570" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/index.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390494626960" ignored="false" />
-    <file path="/index.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390494626960" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/js/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390492476684" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/css/app.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390497303050" ignored="false" />
+    <file path="/index.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393817329158" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/js/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390499038814" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/css/app.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390499087626" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/themes/autosub.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390326313941" ignored="false" />
     <file path="/autosub.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390326313941" ignored="false" />
-    <file path="/app.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390497301849" ignored="false" />
+    <file path="/app.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390499087169" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/mb-vin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393113489661" ignored="false" />
+    <file path="/mb-vin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393113489661" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/mb-subastas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393109124989" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/includes/member-menu.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393701301227" ignored="false" />
+    <file path="/member-menu.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393701301227" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/index.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393114443081" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/chicamall/www/scripts/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393818625359" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/chicamall/www/css/style.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1394118470145" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/data/mall-categories.json" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393548767523" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/data/mall-comercio-detalle.json" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393548767523" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/data/mall-list.json" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393548767523" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/data/mall-mayorca.json" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393548767523" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/css/style.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393548767523" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/index.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393548767523" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/data/mall-mayorca-galeria.json" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393548767523" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/scripts/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393548767523" ignored="false" />
+    <file path="/style.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1394118470145" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/ads.ado.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393703208265" ignored="false" />
+    <file path="/ads.ado.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393703202900" ignored="false" />
+    <file path="/mb-anuncios.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393701391352" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/mb-anuncios.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393701392803" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/ads.service.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393703452174" ignored="false" />
+    <file path="/ads.service.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393703405338" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/chicamall/www/index.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393817329158" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/chicamall/platforms/android/AndroidManifest.xml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393859571058" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/chicaMall/app/chicamall/platforms/android/assets/www/index.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393859571058" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/lib/router.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395275981835" ignored="false" />
+    <file path="/router.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395273124805" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/modules/hotList/carDetailViewTemplate.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395270462695" ignored="false" />
+    <file path="/carDetailViewTemplate.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395270462695" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/modules/carDetail/carDetail.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395274190339" ignored="false" />
+    <file path="/carDetail.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395273655533" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/model/cars/carDetailCollection.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395271618049" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/model/cars/carListCollection.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395271501001" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/lib/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395271446795" ignored="false" />
+    <file path="/carDetailCollection.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395271618049" ignored="false" />
+    <file path="/carDetailImagesModel.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395272061662" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/model/cars/carDetailImagesModel.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395272064534" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/model/cars/carDetailImagesCollection.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395273707008" ignored="false" />
+    <file path="/carDetailImagesCollection.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395272198650" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +185,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="27" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.4888889">
+            <state line="341" column="31" selection-start="11376" selection-end="11376" vertical-scroll-proportion="0.91440797">
               <folding />
             </state>
           </provider>
@@ -248,23 +289,23 @@
     <frame x="10" y="22" width="1420" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18631732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -330,7 +371,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="27" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.4888889">
+        <state line="604" column="51" selection-start="19704" selection-end="19704" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="27" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="341" column="31" selection-start="11376" selection-end="11376" vertical-scroll-proportion="0.91440797">
           <folding />
         </state>
       </provider>
