@@ -7,8 +7,8 @@
     </list>
     <ignored path="curl-test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398124639395" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/mas-visitados.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389754673613" ignored="false" />
+    <file path="/Dummy.txt" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398526992510" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/mas-visitados.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398527907430" ignored="false" />
     <file path="/mas-visitados.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1388944507039" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/js/scratch.common.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389284216938" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/js/scratch.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389294327568" ignored="false" />
@@ -17,9 +17,9 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/vehiculo-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389328405651" ignored="false" />
     <file path="/vehiculo-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389328384422" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/precotizacion.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389138681557" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/crmCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395430065736" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/dbAdmin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395423787476" ignored="false" />
-    <file path="/crmCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395426826675" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/crmCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398178833784" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/dbAdmin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398181494493" ignored="false" />
+    <file path="/crmCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398178471544" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/miembros.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389140176183" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/classes/scratchEngine.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389311963597" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/classes/payRules.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539185514" ignored="false" />
@@ -110,7 +110,7 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/faqs.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390320934382" ignored="false" />
     <file path="/faqs.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390320910549" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/includes/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321288169" ignored="false" />
-    <file path="/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395447976915" ignored="false" />
+    <file path="/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398140352967" ignored="false" />
     <file path="/a.dummy" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395271341403" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/css/main.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393114486726" ignored="false" />
     <file path="/main.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393113754190" ignored="false" />
@@ -176,20 +176,37 @@
     <file path="/search.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395286223800" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/modules/search/searchViewTemplate.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395286605137" ignored="false" />
     <file path="/searchViewTemplate.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395286603167" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/reporte_usuarios.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395423836534" ignored="false" />
-    <file path="/reporte_usuarios.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395423811724" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/reporte_usuarios.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398182485957" ignored="false" />
+    <file path="/reporte_usuarios.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398182484158" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/Mail.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395327033451" ignored="false" />
     <file path="/Mail.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395326902617" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/cotizacionCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395425200830" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/cotizaciones.ado.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395430190340" ignored="false" />
     <file path="/cotizaciones.ado.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395427089057" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/usuarios-overview.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395430226851" ignored="false" />
-    <file path="/usuarios-overview.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395430226851" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/usuarios-overview.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398183626605" ignored="false" />
+    <file path="/usuarios-overview.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398183606381" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/assets/js/userOverview.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395446741492" ignored="false" />
     <file path="/userOverview.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395446671269" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/includes/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395447976915" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/includes/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398140351837" ignored="false" />
     <file path="/tareas-listado.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395497502515" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/tareas-listado.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395497553418" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/cotizacion-manual.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398138802813" ignored="false" />
+    <file path="/cotizacion-manual.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398128486884" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/assets/cotizaciones-manuales.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398140386973" ignored="false" />
+    <file path="/cotizaciones-manuales.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398140381727" ignored="false" />
+    <file path="/dbAdmin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398181236625" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/includes/evaluacion-clientes.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398265516008" ignored="false" />
+    <file path="/evaluacion-clientes.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398265513007" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/assets/js/evaluacion-clientes.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398434280178" ignored="false" />
+    <file path="/evaluacion-clientes.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398434237562" ignored="false" />
+    <file path="/tareas.modal.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398412551495" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/includes/tareas.modal.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398412552559" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/assets/tareas.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398433126318" ignored="false" />
+    <file path="/tareas.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398432974551" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/crm.ado.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398391282029" ignored="false" />
+    <file path="/crm.ado.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398391223786" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/crm.tareas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398391438166" ignored="false" />
+    <file path="/crm.tareas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398391426476" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +229,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="10" selection-start="4186" selection-end="4186" vertical-scroll-proportion="0.6">
+            <state line="127" column="6" selection-start="4425" selection-end="4425" vertical-scroll-proportion="0.4">
               <folding />
             </state>
           </provider>
@@ -298,7 +315,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -320,7 +337,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18922853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19213974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -400,6 +417,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="10" selection-start="4186" selection-end="4186" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="749" column="42" selection-start="24772" selection-end="24798" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -421,7 +445,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="10" selection-start="4186" selection-end="4186" vertical-scroll-proportion="0.6">
+        <state line="127" column="6" selection-start="4425" selection-end="4425" vertical-scroll-proportion="0.4">
           <folding />
         </state>
       </provider>

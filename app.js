@@ -84,7 +84,7 @@ app.get('/busqueda/:search/:page', function(req, res){
                 listSaleDate = $(this).find('.results-last-col .converted-time').text();
                 listLocation = $(this).find('.results-last-col .location-block').text();
 
-                console.log(listImageUrl);
+                //console.log(listImageUrl);
 
                 listLot = parseData(listLot);
                 //undefined var
@@ -119,6 +119,93 @@ app.get('/busqueda/:search/:page', function(req, res){
     });
 
 });
+
+//////////////////////////////////////////////////////////////////
+/// hot list search
+//////////////////////////////////////////////////////////////////
+//free search
+app.get('/hotlist', function(req, res){
+    //var str = req.params.search;
+    //var page = req.params.page;
+    //var replaced = str.split(' ').join('+');
+    //console.log(replaced);
+
+    var _url = domain +'search?FilterCodes=A&oc=True&ocN=automobiles&ocR=homepage&cn=a&searchTitle=Automobiles';
+    var options = { url: _url, include: true };
+    var _data = '';
+
+
+
+    curl.request(options, function (err, data) {
+        _data += data;
+        //Start Paring the data
+        $ = cheerio.load(_data);
+
+        var dataArray = [];
+        var listItem = {};
+        var pagingObj ={};
+        var _count = 0;
+
+        var listImageUrl, listTitle, listLot, CarTitle,
+            listRetailValue, listRepairEst, listTitle, listMiles,
+            listDamage, listSaleDate, listLocation, paging, txt, parseTxt;
+
+        var searchResults = $('.search-results').html();
+        // setTimeout(function(){
+
+
+        $('.results  > tr').each(function() {
+
+            CarTitle = $(this).find('.lot-desc').text();//
+            //listImageUrl = $(this).find('.lot-detail-image').attr('src');
+            listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
+            listLot = $(this).find('.results-first-col li').first().text();
+            listRetailValue = $(this).find('.results-first-col li:nth-child(2)').text();
+            listRepairEst = $(this).find('.results-first-col li:nth-child(3)').text();
+            listTitle = $(this).find('.results-first-col li:nth-child(4)').text();
+            listMiles = $(this).find('.results-second-col li').first().text();
+            listDamage = $(this).find('.results-second-col li:nth-child(3)').text();
+            listSaleDate = $(this).find('.results-last-col .converted-time').text();
+            listLocation = $(this).find('.results-last-col .location-block').text();
+
+            //console.log(listImageUrl);
+
+            listLot = parseData(listLot);
+            //undefined var
+            if(typeof(listLot) !== undefined || listLot != null ||listLot != '' ){
+                listLot = listLot.replace(/[^\d.]/g, "");
+                console.log(listLot);
+            }
+
+
+            listItem = {
+                "CarTitle" : CarTitle,
+                "image" : parseUrl(listImageUrl),
+                "lotID" :listLot,
+                "retailValue": parseData(listRetailValue),
+                "Repair": parseData(listRepairEst),
+                "title": parseData(listTitle),
+                "miles" : listMiles,
+                "damage": listDamage,
+                "saleDate": listSaleDate,
+                "location" : listLocation
+            }
+
+            dataArray.push(listItem);
+            console.log(dataArray);
+
+        });
+
+
+
+        res.jsonp(dataArray); //JSON.stringify(dataArr)
+        //},5000);
+    });
+
+});
+
+
+//////////////////////////////////////////////////////////////////
 
 app.get('/searchPagination/:search/:page', function(req, res){
     var str = req.params.search;
@@ -519,7 +606,8 @@ app.get('/getCarList/:make/:model/:yearFrom/:yearTo/:page', function(req, res){
         $('.results  > tr').each(function() {
 
             CarTitle = $(this).find('.lot-desc').text();//
-            listImageUrl = $(this).find('.lot-detail-image').attr('src');
+            //listImageUrl = $(this).find('.lot-detail-image').attr('src');
+            listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
             listLot = $(this).find('.results-first-col li').first().text();
             listRetailValue = $(this).find('.results-first-col li:nth-child(2)').text();
             listRepairEst = $(this).find('.results-first-col li:nth-child(3)').text();
@@ -593,12 +681,16 @@ app.get('/getCarListPagination/:make/:model/:yearFrom/:yearTo/:page', function(r
         //set paging
         var _href, _parsedHref;
         $('.paging > li > a').each(function(){
+            //console.log($(this));
+            //console.log($(this).text());
             if(!isNaN($(this).text()) ){
-                $(this).attr('href','/busquedas/'+req.params.make+'/'+req.params.model+'/'+_yearFrom+'/'+_yearTo+'/'+$(this).text());
+                $(this).attr('href','/busqueda/'+req.params.search+'/'+$(this).text());
             }else{
-                _href =  $(this).attr('href');
-                _parsedHref = _href.split('Page=');
-                $(this).attr('href','/busquedas/'+req.params.make+'/'+req.params.model+'/'+_yearFrom+'/'+_yearTo+'/'+_parsedHref[1]);
+                //_href =  $(this).attr('href');
+                _href =  $(this).text(); //updated from 04/21/2014 Copart removes href attr
+                console.log($(this));
+                //_parsedHref = _href.split('Page=');
+                $(this).attr('href','/busqueda/'+req.params.search+'/'+_href);
             }
         });
         $( ".paging > li" ).last().remove();
@@ -648,7 +740,8 @@ app.get('/getMotorcicleList/:page', function(req, res){
         $('.results  > tr').each(function() {
 
             CarTitle = $(this).find('.lot-desc').text();//
-            listImageUrl = $(this).find('.lot-detail-image').attr('src');
+            //listImageUrl = $(this).find('.lot-detail-image').attr('src');
+            listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
             listLot = $(this).find('.results-first-col li').first().text();
             listRetailValue = $(this).find('.results-first-col li:nth-child(2)').text();
             listRepairEst = $(this).find('.results-first-col li:nth-child(3)').text();
@@ -706,12 +799,16 @@ app.get('/getMotorcicleListPagination/:page', function(req, res){
         //set paging
         var _href, _parsedHref;
         $('.paging > li > a').each(function(){
+            //console.log($(this));
+            //console.log($(this).text());
             if(!isNaN($(this).text()) ){
-                $(this).attr('href','/motos/'+$(this).text());
+                $(this).attr('href','/busqueda/'+req.params.search+'/'+$(this).text());
             }else{
-                _href =  $(this).attr('href');
-                _parsedHref = _href.split('Page=');
-                $(this).attr('href','/motos/'+_parsedHref[1]);
+                //_href =  $(this).attr('href');
+                _href =  $(this).text(); //updated from 04/21/2014 Copart removes href attr
+                console.log($(this));
+                //_parsedHref = _href.split('Page=');
+                $(this).attr('href','/busqueda/'+req.params.search+'/'+_href);
             }
         });
         $( ".paging > li" ).last().remove();
