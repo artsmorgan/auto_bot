@@ -37,6 +37,86 @@ function parseHtml(html){
     return newString;
 }
 
+//Filters
+app.get('/filter/:search/:page', function(req, res){
+    var str = req.params.search;
+    var page = req.params.page;
+    var replaced = str.split(' ').join('+');
+    console.log(replaced);
+
+    var _url = domain +'search?q=' + replaced + '&page='+page;
+    var options = { url: _url, include: true };
+    var _data = '';
+
+
+
+    curl.request(options, function (err, data) {
+        _data += data;
+        //Start Paring the data
+        $ = cheerio.load(_data);
+
+        var dataArray = [];
+        var listItem = {};
+        var pagingObj ={};
+        var _count = 0;
+
+        var listImageUrl, listTitle, listLot, CarTitle,
+            listRetailValue, listRepairEst, listTitle, listMiles,
+            listDamage, listSaleDate, listLocation, paging, txt, parseTxt;
+
+        var searchResults = $('.search-results').html();
+        // setTimeout(function(){
+
+
+        $('.results  > tr').each(function() {
+
+            CarTitle = $(this).find('.lot-desc').text();//
+            //listImageUrl = $(this).find('.lot-detail-image').attr('src');
+            listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
+            listLot = $(this).find('.results-first-col li').first().text();
+            listRetailValue = $(this).find('.results-first-col li:nth-child(2)').text();
+            listRepairEst = $(this).find('.results-first-col li:nth-child(3)').text();
+            listTitle = $(this).find('.results-first-col li:nth-child(4)').text();
+            listMiles = $(this).find('.results-second-col li').first().text();
+            listDamage = $(this).find('.results-second-col li:nth-child(3)').text();
+            listSaleDate = $(this).find('.results-last-col .converted-time').text();
+            listLocation = $(this).find('.results-last-col .location-block').text();
+
+            //console.log(listImageUrl);
+
+            listLot = parseData(listLot);
+            //undefined var
+            if(typeof(listLot) !== undefined || listLot != null ||listLot != '' ){
+                listLot = listLot.replace(/[^\d.]/g, "");
+                console.log(listLot);
+            }
+
+
+            listItem = {
+                "CarTitle" : CarTitle,
+                "image" : parseUrl(listImageUrl),
+                "lotID" :listLot,
+                "retailValue": parseData(listRetailValue),
+                "Repair": parseData(listRepairEst),
+                "title": parseData(listTitle),
+                "miles" : listMiles,
+                "damage": listDamage,
+                "saleDate": listSaleDate,
+                "location" : listLocation
+            }
+
+            dataArray.push(listItem);
+            console.log(dataArray);
+
+        });
+
+
+
+        res.jsonp(dataArray); //JSON.stringify(dataArr)
+        //},5000);
+    });
+
+});
 
 
 //free search
@@ -573,13 +653,19 @@ app.get('/lote/:lot', function(req, res){
 //Get Detail Parameters
 
 app.get('/getCarList/:make/:model/:yearFrom/:yearTo/:page', function(req, res){
-    var _yearFrom, _yearTo;
+    //http://localhost:5000/getCarList/TOYT/ECHO/2001/2015/1
+    var _yearFrom, _yearTo, model;
 
     (!req.params.yearFrom)? _yearFrom = 1965 : _yearFrom = req.params.yearFrom;
     (!req.params.yearTo)? _yearTo = date.getFullYear() : _yearTo = req.params.yearTo;
+    if(req.params.model=='*'){
+        model = '';
+    }else{
+        model = req.params.model;
+    }
 
     var _url = domain +'search?companyCode_vf=US&LotTypes=V&YearFrom='+_yearFrom+'&YearTo='+_yearTo+'&Make='+req.params.make+
-                '&ModelGroups='+req.params.model+'&RadioGroup=Location&YardNumber=&States=&PostalCode=&Distance=0&' +
+                '&ModelGroups='+model+'&RadioGroup=Location&YardNumber=&States=&PostalCode=&Distance=0&' +
                 'searchTitle=---++++++++++++++++++++++++%2CX5%2C&cn=---++++++++++++++++++++++++%2C---%2C&Page='+ req.params.page;
     var options = { url: _url, include: true };
     var _data = '';
@@ -884,4 +970,4 @@ app.get('/vin/:vin', function(req, res){
 
 
 app.listen(process.env.PORT || 5000)
-//console.log('Listening on port 5000');
+console.log('Listening on port 5000');
