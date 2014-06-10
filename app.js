@@ -1167,6 +1167,9 @@ app.get('/vin/:vin', function(req, res){
     });
 
 });
+var ipaddr = process.env.OPENSHIFT_INTERNAL_IP || "127.0.0.1";
+var port = process.env.OPENSHIFT_INTERNAL_PORT || 8080;
 
-app.listen(process.env.PORT || 5000)
+app.listen(port)
+//app.listen(process.env.PORT || 5000)
 console.log('Listening on port 5000');
