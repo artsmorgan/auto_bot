@@ -42,6 +42,7 @@ app.get('/filterList/:make/:model/:yearFrom/:yearTo/', function(req, res){
         post_options = 'http://ww2.copart.com/us/search?q='+req.params.model;
         filter_by = '';
 
+
     }else{
         post_options = 'getSearch=http://ww2.copart.com/us/search?companyCode_vf=US&amp;Sort=sd&amp;LotTypes=V&amp;YearFrom='+_yearFrom
             +'&amp;YearTo='+_yearTo
@@ -58,7 +59,7 @@ app.get('/filterList/:make/:model/:yearFrom/:yearTo/', function(req, res){
     }else{
         model = req.params.model;
     }
-    console.log('url filters: ');
+    //console.log('url filters: ');
     var _url = 'http://ww2.copart.com/us/search/GetSearchFilters';
 
 
@@ -76,6 +77,7 @@ app.get('/filterList/:make/:model/:yearFrom/:yearTo/', function(req, res){
 
     curl.request(options, function (err, data) {
         _data += data;
+        console.log(data);
         //Start Paring the data
         $ = cheerio.load(_data);
         var filter_holder = $('.filter-holder').html();
@@ -120,8 +122,11 @@ app.get('/busqueda/:search/:page', function(req, res){
         var searchResults = $('.search-results').html();
        // setTimeout(function(){
 
+            //console.log(data);
 
-            $('.results  > tr').each(function() {
+            //console.log($('.results > tbody  > tr').html());
+
+            $('.results  > tbody > tr').each(function() {
 
                 /*CarTitle = $(this).find('.lot-desc').text();//
                 //listImageUrl = $(this).find('.lot-detail-image').attr('src');
@@ -222,7 +227,7 @@ app.get('/hotlist', function(req, res){
         // setTimeout(function(){
 
 
-        $('.results  > tr').each(function() {
+        $('.results  > tbody > tr').each(function() {
 
             CarTitle = $(this).find('.lot-desc').text();//
             //listImageUrl = $(this).find('.lot-detail-image').attr('src');
@@ -294,7 +299,7 @@ app.get('/filterResult/:queryString', function(req, res){
     curl.request(options, function (err, data) {
         _data += data;
 
-       // console.log(_data);
+        console.log(_data);
         //Start Paring the data
         $ = cheerio.load(_data);
 
@@ -311,7 +316,7 @@ app.get('/filterResult/:queryString', function(req, res){
         // setTimeout(function(){
 
 
-        $('.results  > tr').each(function() {
+        $('.results  > tbody > tr').each(function() {
 
             CarTitle = $(this).find('.lot-desc').text();//
             //listImageUrl = $(this).find('.lot-detail-image').attr('src');
@@ -769,7 +774,7 @@ app.get('/getCarList/:make/:model/:yearFrom/:yearTo/:page/:optional?*', function
             listDamage, listSaleDate, listLocation, paging, txt, parseTxt;
 
         var searchResults = $('.search-results').html();
-        $('.results  > tr').each(function() {
+        $('.results  > tbody > tr').each(function() {
 
             CarTitle = $(this).find('.lot-desc').text();//
             //listImageUrl = $(this).find('.lot-detail-image').attr('src');
@@ -1019,7 +1024,7 @@ app.get('/getMotorcicleList/:page', function(req, res){
             listDamage, listSaleDate, listLocation, paging, txt, parseTxt;
 
         var searchResults = $('.search-results').html();
-        $('.results  > tr').each(function() {
+        $('.results  > tbody > tr').each(function() {
 
             CarTitle = $(this).find('.lot-desc').text();//
             //listImageUrl = $(this).find('.lot-detail-image').attr('src');
