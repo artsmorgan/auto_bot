@@ -140,8 +140,8 @@ app.get('/busqueda/:search/:page', function(req, res){
                 listSaleDate = $(this).find('.results-last-col .converted-time').text();
                 listLocation = $(this).find('.results-last-col .location-block').text();*/
                 CarTitle = $(this).find('.lot-desc').text();//
-                //listImageUrl = $(this).find('.lot-detail-image').attr('src');
-                listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
+                listImageUrl = $(this).find('.lot-detail-image').attr('src');
+                //listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
                 listLot = $(this).find('.results-first-col li').first().text();
 
                 //listRetailValue = $(this).find('.results-first-col li:nth-child(2)').text();
@@ -230,8 +230,8 @@ app.get('/hotlist', function(req, res){
         $('.results  > tbody > tr').each(function() {
 
             CarTitle = $(this).find('.lot-desc').text();//
-            //listImageUrl = $(this).find('.lot-detail-image').attr('src');
-            listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
+            listImageUrl = $(this).find('.lot-detail-image').attr('src');
+            //listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
             listLot = $(this).find('.results-first-col li').first().text();
 
             //listRetailValue = $(this).find('.results-first-col li:nth-child(2)').text();
@@ -319,8 +319,8 @@ app.get('/filterResult/:queryString', function(req, res){
         $('.results  > tbody > tr').each(function() {
 
             CarTitle = $(this).find('.lot-desc').text();//
-            //listImageUrl = $(this).find('.lot-detail-image').attr('src');
-            listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
+            listImageUrl = $(this).find('.lot-detail-image').attr('src');
+            //listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
             listLot = $(this).find('.results-first-col li').first().text();
 
             //listRetailValue = $(this).find('.results-first-col li:nth-child(2)').text();
@@ -777,8 +777,8 @@ app.get('/getCarList/:make/:model/:yearFrom/:yearTo/:page/:optional?*', function
         $('.results  > tbody > tr').each(function() {
 
             CarTitle = $(this).find('.lot-desc').text();//
-            //listImageUrl = $(this).find('.lot-detail-image').attr('src');
-            listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
+            listImageUrl = $(this).find('.lot-detail-image').attr('src');
+            //listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
             listLot = $(this).find('.results-first-col li').first().text();
 
             //listRetailValue = $(this).find('.results-first-col li:nth-child(2)').text();
@@ -1027,8 +1027,8 @@ app.get('/getMotorcicleList/:page', function(req, res){
         $('.results  > tbody > tr').each(function() {
 
             CarTitle = $(this).find('.lot-desc').text();//
-            //listImageUrl = $(this).find('.lot-detail-image').attr('src');
-            listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
+            listImageUrl = $(this).find('.lot-detail-image').attr('src');
+            //listImageUrl = $(this).find('.lot-detail-image').attr('data-original');
             listLot = $(this).find('.results-first-col li').first().text();
 
             //listRetailValue = $(this).find('.results-first-col li:nth-child(2)').text();
