@@ -700,7 +700,7 @@ app.get('/lote/:lot', function(req, res){
             }else if($(this).find('.label').text()=='Fuel'){
                 _Fuel = $(this).find('.lot-content').text();
             }else if($(this).find('.label').text()=='Location'){
-                _Location = $(this).find('.lot-content').text();
+                _Location = $(this).find('.lot-content').find('a').first().html();
                 console.log(_Location);
             }else if( $(this).find('.label').text().indexOf("Sale Date") > 0){
                 _SaleDate = $(this).find('.converted-time').attr('data-original-time');
