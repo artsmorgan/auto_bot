@@ -3,21 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="curl-test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1407368185508" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/mas-visitados.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1405517824425" ignored="false" />
-    <file path="/mas-visitados.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1405517821541" ignored="false" />
+    <file path="/Dummy.txt" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1413384985225" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/mas-visitados.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417702100511" ignored="false" />
+    <file path="/mas-visitados.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417701350625" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/js/scratch.common.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389284216938" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/js/scratch.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389294327568" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/internas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412866648004" ignored="false" />
-    <file path="/internas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389664050942" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/vehiculo-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412866824108" ignored="false" />
-    <file path="/vehiculo-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412866814579" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/internas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417105884074" ignored="false" />
+    <file path="/internas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417105666644" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/vehiculo-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415113931414" ignored="false" />
+    <file path="/vehiculo-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415113683652" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/precotizacion.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389138681557" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/crmCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401553487588" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/dbAdmin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401554132751" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/crmCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1413219444573" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/dbAdmin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1416505704280" ignored="false" />
     <file path="/crmCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399645629986" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/miembros.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389140176183" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/classes/scratchEngine.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389311963597" ignored="false" />
@@ -37,7 +38,7 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/scratch/css/gold.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389294133285" ignored="false" />
     <file path="/gold.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389294077860" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/config/routing.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539204350" ignored="false" />
-    <file path="/routing.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412865090394" ignored="false" />
+    <file path="/routing.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414512260381" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Controller/adminController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539307348" ignored="false" />
     <file path="/adminController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539300675" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersScratchCardsCasino.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389296388622" ignored="false" />
@@ -82,11 +83,11 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersSlotsMachineVegas.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539126363" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/site/src/CSN/casinoBundle/Resources/views/members/membersSlotsMachineClassic.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539243909" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/slots/slots-classic.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539406975" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/detalle-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1405518841460" ignored="false" />
-    <file path="/detalle-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1405518700690" ignored="false" />
-    <file path="/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412866544118" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1405519710612" ignored="false" />
-    <file path="/detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402036653562" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/detalle-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418188053907" ignored="false" />
+    <file path="/detalle-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418188008635" ignored="false" />
+    <file path="/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418188226886" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415111430490" ignored="false" />
+    <file path="/detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415111422845" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/api/controllers/CardsController.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389753076581" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/config/routes.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389753481210" ignored="false" />
     <file path="/routes.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389753299944" ignored="false" />
@@ -102,19 +103,19 @@
     <file path="/dealerService.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389764109523" ignored="false" />
     <file path="/DealerController.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389799136919" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/api/controllers/DealerController.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389799194186" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/clientAuction.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389888600967" ignored="false" />
-    <file path="/clientAuction.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389888580104" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/contacto.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390319215612" ignored="false" />
-    <file path="/contacto.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390319215612" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/clientAuction.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417099578820" ignored="false" />
+    <file path="/clientAuction.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417099512149" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/contacto.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417700246581" ignored="false" />
+    <file path="/contacto.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417700245212" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/faqs.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399393276430" ignored="false" />
     <file path="/faqs.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399393275144" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/includes/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321288169" ignored="false" />
-    <file path="/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1406515680168" ignored="false" />
-    <file path="/a.dummy" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1406515948496" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/css/main.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393114486726" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/includes/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417096431477" ignored="false" />
+    <file path="/header.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415108903182" ignored="false" />
+    <file path="/a.dummy" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417101939688" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/css/main.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417101954726" ignored="false" />
     <file path="/main.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1393113754190" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/includes/footer.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321925041" ignored="false" />
-    <file path="/footer.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390321923570" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/includes/footer.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417096122009" ignored="false" />
+    <file path="/footer.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417096077077" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/index.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395286730308" ignored="false" />
     <file path="/index.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395286730308" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrMobile/js/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1390499038814" ignored="false" />
@@ -177,9 +178,9 @@
     <file path="/searchViewTemplate.html" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395286603167" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/reporte_usuarios.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401554401520" ignored="false" />
     <file path="/reporte_usuarios.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401554401520" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/Mail.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399589971346" ignored="false" />
-    <file path="/Mail.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398612796414" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/cotizacionCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398613943760" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/Mail.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414705550704" ignored="false" />
+    <file path="/Mail.class.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1413475303944" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/cotizacionCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1413223434300" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/cotizaciones.ado.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395430190340" ignored="false" />
     <file path="/cotizaciones.ado.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1395427089057" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/usuarios-overview.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398183626605" ignored="false" />
@@ -191,9 +192,9 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/tareas-listado.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398550986603" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/cotizacion-manual.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399645804244" ignored="false" />
     <file path="/cotizacion-manual.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398866854283" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/assets/cotizaciones-manuales.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412344274710" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/assets/cotizaciones-manuales.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1413219444573" ignored="false" />
     <file path="/cotizaciones-manuales.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412344223487" ignored="false" />
-    <file path="/dbAdmin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401553850454" ignored="false" />
+    <file path="/dbAdmin.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1416505666676" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/includes/evaluacion-clientes.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399262679081" ignored="false" />
     <file path="/evaluacion-clientes.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399262667082" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/assets/js/evaluacion-clientes.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399264753769" ignored="false" />
@@ -208,7 +209,7 @@
     <file path="/crm.tareas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399241378879" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/cotizacion-enviadas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398614768040" ignored="false" />
     <file path="/cotizacion-enviadas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398614754246" ignored="false" />
-    <file path="/cotizacionCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1398613931488" ignored="false" />
+    <file path="/cotizacionCommon.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1413221849977" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/assets/cotizaciones.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399589623172" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/assets/js/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399262600379" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/web/.htaccess" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399560236283" ignored="false" />
@@ -217,30 +218,30 @@
     <file path="/LoginController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399572766679" ignored="false" />
     <file path="/cotizaciones.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1399589053912" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/cotizacion.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412700088673" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/web/css/screen.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412860753238" ignored="false" />
-    <file path="/screen.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412860570197" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/web/css/screen.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414513820044" ignored="false" />
+    <file path="/screen.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414513819440" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Categorias/main.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1406436103740" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Empresas/product-list.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1411756432688" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Default/categorias_listado.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1411757529384" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Default/categorias_listado.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415116611783" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Producto/main.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1411756391756" ignored="false" />
     <file path="/main.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409759811831" ignored="false" />
-    <file path="/base.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1411757902493" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/app/Resources/views/base.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1411757965330" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Default/contactenos.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402065183428" ignored="false" />
+    <file path="/base.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414517535304" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/app/Resources/views/base.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415719302597" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Default/contactenos.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415116635870" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/app/cache/dev/profiler/4e/6c/086c4e" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401326733800" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/app/cache/dev/profiler/98/43/fc4398" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401326733800" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/login/main.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1408972624612" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/login/main.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415116685681" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/app/cache/dev/profiler/81/22/bd2281" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401326733800" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Default/conocenos.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1406435604348" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Default/conocenos.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415116629747" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/app/cache/dev/profiler/06/55/c25506" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401326733800" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/app/cache/dev/profiler/65/0a/1d0a65" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401326733800" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Categorias/empresas_listado.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402066166981" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Default/empresas_listado.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1406498107929" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Default/empresas_listado.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415116648394" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/app/config/config_dev.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1404300195975" ignored="false" />
     <file path="/config_dev.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1404300195975" ignored="false" />
-    <file path="/auctionDetails.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401461433005" ignored="false" />
+    <file path="/auctionDetails.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418186679728" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascr/js/auctionDetails.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401461415577" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/cotizacion-mod.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401552803687" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/cotizacion-mod.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1413472797610" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/adminBundle/Resources/config/routing.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401651481198" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/app/config/routing.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1403015147760" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/app/AppKernel.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402633108790" ignored="false" />
@@ -250,14 +251,14 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/AdminBundle/Controller/DefaultController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1408820378902" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/AdminBundle/Resources/views/Default/adminBase.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1405194921040" ignored="false" />
     <file path="/adminBase.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1405194921040" ignored="false" />
-    <file path="/DefaultController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409063238016" ignored="false" />
+    <file path="/DefaultController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414512064568" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/css/auto_dealer.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401815977496" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/detallesCtlr.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402020577323" ignored="false" />
-    <file path="/detallesCtlr.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401891363620" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/detallesCtlr.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418187898131" ignored="false" />
+    <file path="/detallesCtlr.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418187885450" ignored="false" />
     <file path="/auto_dealer.css" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1401814751052" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/.htaccess" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402007524106" ignored="false" />
-    <file path="/.htaccess" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402007523067" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Controller/DefaultController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409063524592" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/.htaccess" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418187775289" ignored="false" />
+    <file path="/.htaccess" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418187775289" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Controller/DefaultController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414512088828" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Controller/ProductoController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1411757690745" ignored="false" />
     <file path="/empresas_listado.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1406498094431" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Default/index-company-list.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409762778046" ignored="false" />
@@ -280,7 +281,7 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Default/index-lower-content.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1411758561221" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/web/js/jquery.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402067590267" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/app/cache/dev/classes.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402068359586" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/modals/contact-modal.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412863588221" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/modals/contact-modal.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414251625727" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/deps" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402107924167" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/UserBundle/Resources/config/doctrine/Clientes.orm.xml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402499965289" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/UserBundle/Resources/config/routing.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402581068285" ignored="false" />
@@ -317,7 +318,7 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/app/config/config.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1404434685500" ignored="false" />
     <file path="/config.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1404434684837" ignored="false" />
     <file path="/Clientes.orm.xml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402499714144" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/config/routing.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409091056492" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/config/routing.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414512260381" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/routing/security.xml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402432942234" ignored="false" />
     <file path="/security.xml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1402432941359" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Controller/SecurityController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1408972525693" ignored="false" />
@@ -397,7 +398,7 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/coreBundle/Resources/config/routing/productos.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1405727673004" ignored="false" />
     <file path="/productos.yml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1405727670919" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/coreBundle/Resources/views/Productos/categorias.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1403194803651" ignored="false" />
-    <file path="/contact-modal.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412863557645" ignored="false" />
+    <file path="/contact-modal.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414251139129" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/vendor/symfony/symfony/.gitignore" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1403623545645" ignored="false" />
     <file path="/index-lower-content.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1411758555429" ignored="false" />
     <file path="/ClientesImg.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1404307502214" ignored="false" />
@@ -437,8 +438,8 @@
     <file path="/ProductosRating.orm.xml" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1405702167288" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/coreBundle/Entity/ProductosRating.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1405700529742" ignored="false" />
     <file path="/ProductosRating.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1405700494673" ignored="false" />
-    <file path="/APIController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412865394719" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/coreBundle/Controller/APIController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412865468702" ignored="false" />
+    <file path="/APIController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1413903400090" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/coreBundle/Controller/APIController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1413904658743" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/mantenimientos-agentes.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1406412624426" ignored="false" />
     <file path="/mantenimientos-agentes.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1406412621957" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/classes/ado/mantenimientos.agentes.ado.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1406412634089" ignored="false" />
@@ -483,9 +484,9 @@
     <file path="/estadosCreate.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1406521014467" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/crm/actions/estadosDelete.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1406521648568" ignored="false" />
     <file path="/estadosDelete.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1406521595415" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Clientes/registro.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409010922512" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Clientes/registro.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414518144236" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Controller/ClientesController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409151551157" ignored="false" />
-    <file path="/registro.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409010920921" ignored="false" />
+    <file path="/registro.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414517631699" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Clientes/showDashboard.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409017152959" ignored="false" />
     <file path="/showDashboard.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409017126022" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Clientes/menu.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1407700270304" ignored="false" />
@@ -496,7 +497,7 @@
     <file path="/showEmpresa.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409029161728" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Clientes/showProducts.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409152456974" ignored="false" />
     <file path="/showProducts.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409152456510" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Clientes/createProduct.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409757795885" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Clientes/createProduct.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415456399535" ignored="false" />
     <file path="/createProduct.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409757789809" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/web/css/clientes-productos.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1407708419726" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/web/js/clientes-productos.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1408467159969" ignored="false" />
@@ -505,7 +506,7 @@
     <file path="/SecurityController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1408890793375" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Controller/loginController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1408972544189" ignored="false" />
     <file path="/loginController.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1408892340371" ignored="false" />
-    <file path="/categorias_listado.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1408771122950" ignored="false" />
+    <file path="/categorias_listado.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415116459001" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Clientes/imageEmpresa.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409030675641" ignored="false" />
     <file path="/imageEmpresa.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409030618901" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Clientes/editEmpresa.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409062200106" ignored="false" />
@@ -517,10 +518,32 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Clientes/editProducts.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409088182869" ignored="false" />
     <file path="/editProducts.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409087892434" ignored="false" />
     <file path="/product-images-modal.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409152022587" ignored="false" />
-    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/modals/pedido-modal.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412865893636" ignored="false" />
-    <file path="/pedido-modal.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412865811281" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/modals/pedido-modal.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414251626153" ignored="false" />
+    <file path="/pedido-modal.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414251614840" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Producto/carousel.jquery.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1409760597903" ignored="false" />
     <file path="/cotizacion.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1412700014916" ignored="false" />
+    <file path="/cotizacion-mod.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1413223454214" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/mangocele/site/src/Mangocele/siteBundle/Resources/views/Default/disclaimer.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415116642129" ignored="false" />
+    <file path="/disclaimer.html.twig" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414512905809" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/mb-watchlist.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414705866172" ignored="false" />
+    <file path="/mb-watchlist.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1414705849696" ignored="false" />
+    <file path="/mb-perfiles.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415108565406" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/mb-perfiles.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415108620157" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/searcher.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415109594202" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/watchlist.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417702290276" ignored="false" />
+    <file path="/watchlist.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417701554702" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/subastas-detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418158999955" ignored="false" />
+    <file path="/subastas-detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1416503065519" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/subastas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417101573706" ignored="false" />
+    <file path="/subastas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417101567120" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/mb-subastas-edit.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417101573706" ignored="false" />
+    <file path="/mb-subastas-edit.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417101110576" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/mb-cotizaciones.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417105394471" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/subastas.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417700019812" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/registro.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417702530694" ignored="false" />
+    <file path="/registro.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1417702400903" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/auctionDetails.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418186980272" ignored="false" />
+    <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/services/subasta.images.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418187331219" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -543,7 +566,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="432" column="26" selection-start="14848" selection-end="14854" vertical-scroll-proportion="0.20827389">
+            <state line="756" column="114" selection-start="25986" selection-end="25986" vertical-scroll-proportion="0.73333335">
               <folding />
             </state>
           </provider>
@@ -652,7 +675,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20960699" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2125182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -729,7 +752,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app.js</url>
-          <line>942</line>
+          <line>946</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -737,6 +760,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="432" column="26" selection-start="14848" selection-end="14854" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="26" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.0">
@@ -795,7 +825,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="432" column="26" selection-start="14848" selection-end="14854" vertical-scroll-proportion="0.20827389">
+        <state line="756" column="114" selection-start="25986" selection-end="25986" vertical-scroll-proportion="0.73333335">
           <folding />
         </state>
       </provider>
