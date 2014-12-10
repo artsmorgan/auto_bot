@@ -743,16 +743,8 @@ app.get('/getCarList/:make/:model/:yearFrom/:yearTo/:page/:optional?*', function
     (!req.params.yearFrom)? _yearFrom = 1965 : _yearFrom = req.params.yearFrom;
     (!req.params.yearTo)? _yearTo = date.getFullYear() : _yearTo = req.params.yearTo;
 
-    if(req.params.model=='*'){
-        model = '';
-    }else{
-        model = req.params.model;
-    }
-
     model = (req.params.model=='*' ? '' : req.params.model);
-    make = (req.params.make=='*' ? '' : req.params.male);
-
-
+    make = (req.params.make=='*' ? '' : req.params.make);
 
     var _url = domain +'search?companyCode_vf=US&LotTypes=V&YearFrom='+_yearFrom+'&YearTo='+_yearTo+'&Make='+ make +
                 '&ModelGroups='+model+'&RadioGroup=Location&YardNumber=&States=&PostalCode=&Distance=0&' +
@@ -835,6 +827,7 @@ app.get('/getCarFilters/:make/:model/:yearFrom/:yearTo/:page', function(req, res
 
     (!req.params.yearFrom)? _yearFrom = 1965 : _yearFrom = req.params.yearFrom;
     (!req.params.yearTo)? _yearTo = date.getFullYear() : _yearTo = req.params.yearTo;
+
     if(req.params.model=='*'){
         model = '';
     }else{
@@ -885,11 +878,10 @@ app.get('/getCarListPagination/:make/:model/:yearFrom/:yearTo/:page', function(r
 
     (!req.params.yearFrom)? _yearFrom = 1965 : _yearFrom = req.params.yearFrom;
     (!req.params.yearTo)? _yearTo = date.getFullYear() : _yearTo = req.params.yearTo;
-    if(req.params.model=='*'){
-        model = '';
-    }else{
-        model = req.params.model;
-    }
+
+    model = (req.params.model=='*' ? '' : req.params.model);
+    make = (req.params.make=='*' ? '' : req.params.make);
+    
     var page = Number(req.params.page);
 
 

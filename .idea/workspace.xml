@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="curl-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,7 +84,7 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/slots/slots-classic.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539406975" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/detalle-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418188053907" ignored="false" />
     <file path="/detalle-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418188008635" ignored="false" />
-    <file path="/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418188226886" ignored="false" />
+    <file path="/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418188683243" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415111430490" ignored="false" />
     <file path="/detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415111422845" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/api/controllers/CardsController.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389753076581" ignored="false" />
@@ -566,8 +565,10 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="756" column="114" selection-start="25986" selection-end="25986" vertical-scroll-proportion="0.73333335">
-              <folding />
+            <state line="883" column="4" selection-start="30359" selection-end="30359" vertical-scroll-proportion="0.21925926">
+              <folding>
+                <element signature="e#28648#29939#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -752,7 +753,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app.js</url>
-          <line>946</line>
+          <line>938</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -763,70 +764,90 @@
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="432" column="26" selection-start="14848" selection-end="14854" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#28648#29939#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="26" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#28648#29939#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="124" column="14" selection-start="3300" selection-end="3300" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#28648#29939#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="1" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#28648#29939#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="22" selection-start="582" selection-end="603" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#28648#29939#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="10" selection-start="4186" selection-end="4186" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#28648#29939#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="749" column="42" selection-start="24772" selection-end="24798" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#28648#29939#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="604" column="51" selection-start="19704" selection-end="19704" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#28648#29939#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="27" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#28648#29939#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="756" column="114" selection-start="25986" selection-end="25986" vertical-scroll-proportion="0.73333335">
-          <folding />
+        <state line="883" column="4" selection-start="30359" selection-end="30359" vertical-scroll-proportion="0.21925926">
+          <folding>
+            <element signature="e#28648#29939#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
