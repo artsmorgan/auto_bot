@@ -881,16 +881,16 @@ app.get('/getCarListPagination/:make/:model/:yearFrom/:yearTo/:page', function(r
 
     model = (req.params.model=='*' ? '' : req.params.model);
     make = (req.params.make=='*' ? '' : req.params.make);
-    
+
     var page = Number(req.params.page);
 
 
-    var _url = domain +'search?companyCode_vf=US&LotTypes=V&YearFrom='+_yearFrom+'&YearTo='+_yearTo+'&Make='+req.params.make+
+    var _url = domain +'search?companyCode_vf=US&LotTypes=V&YearFrom='+_yearFrom+'&YearTo='+_yearTo+'&Make='+make+
         '&ModelGroups='+model+'&Page='+ req.params.page;
     var options = { url: _url, include: true };
     var _data = '';
 
-    console.log(_url);
+    //console.log(make);
 
 
     curl.request(options, function (err, data) {

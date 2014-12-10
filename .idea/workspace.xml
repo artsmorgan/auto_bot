@@ -84,7 +84,7 @@
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/slots/slots-classic.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389539406975" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/js/detalle-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418188053907" ignored="false" />
     <file path="/detalle-functions.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418188008635" ignored="false" />
-    <file path="/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418188683243" ignored="false" />
+    <file path="/app.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1418188830504" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/autosubastascrRESTful/detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415111430490" ignored="false" />
     <file path="/detalle.php" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1415111422845" ignored="false" />
     <file path="/Applications/XAMPP/xamppfiles/htdocs/casino/games/bingo/backend/api/controllers/CardsController.js" changelist="f8b300f6-c0bb-41c5-ae1f-60dfaf873bad" time="1389753076581" ignored="false" />
@@ -565,7 +565,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="883" column="4" selection-start="30359" selection-end="30359" vertical-scroll-proportion="0.21925926">
+            <state line="892" column="6" selection-start="30645" selection-end="30645" vertical-scroll-proportion="0.41925925">
               <folding>
                 <element signature="e#28648#29939#0" expanded="false" />
               </folding>
@@ -844,7 +844,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="883" column="4" selection-start="30359" selection-end="30359" vertical-scroll-proportion="0.21925926">
+        <state line="892" column="6" selection-start="30645" selection-end="30645" vertical-scroll-proportion="0.41925925">
           <folding>
             <element signature="e#28648#29939#0" expanded="false" />
           </folding>
