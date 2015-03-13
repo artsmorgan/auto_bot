@@ -4,6 +4,7 @@ var app = express();
 var http = require('http');
 var cheerio = require('cheerio');
 var iaai = require('./iaai');
+var carDetailsCopart = require('./copart/car-details');
 
 var domain = 'http://ww2.copart.com/us/';
 var iaaiDomain = 'https://www.iaai.com/';
@@ -32,6 +33,11 @@ function removeBlank(str){
     parse_str = str.replace(/ /g, "+");
     return parse_str;
 }
+
+
+//Routes
+app.get('/lote/:lot',carDetailsCopart.getDetails);
+app.get('/lote/:lot/images', carDetailsCopart.getImages)
 
 //Filters
 app.get('/filterList/:make/:model/:yearFrom/:yearTo/', function(req, res){
@@ -429,36 +435,7 @@ app.get('/searchPagination/:search/:page', function(req, res){
 
 });
 
-//Get Images
-app.get('/lote/:lot/images', function(req, res){
-    var str = req.params.lot;
-    var replaced = str.split(' ').join('+');
-    var _url =  domain +'Lot/' + str + '/Photos';
-    var options = { url: _url, include: true };
-    var _data = '';
 
-    var imagesAr = [];
-    var _img;
-
-    console.log(_url);
-
-    curl.request(options, function (err, data) {
-        _data += data;
-        //Start Paring the data
-        $ = cheerio.load(_data);
-
-        var dataArray = [];
-        $('.list-photos li').each(function(index){
-            _img = $(this).find('img').attr('src');
-            imagesAr.push(_img);
-        });
-
-        imagesAr.pop();
-
-        res.jsonp(imagesAr); //JSON.stringify(dataArr)
-    });
-
-});
 
 
 app.get('/lote/:lot/all',function(req,res){
