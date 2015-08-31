@@ -65,7 +65,7 @@ app.get('/filterList/:make/:model/:yearFrom/:yearTo/', function(req, res){
     }else{
         model = req.params.model;
     }
-    //console.log('url filters: ');
+    ////console.log('url filters: ');
     var _url = 'http://ww2.copart.com/us/search/GetSearchFilters';
 
 
@@ -83,7 +83,7 @@ app.get('/filterList/:make/:model/:yearFrom/:yearTo/', function(req, res){
 
     curl.request(options, function (err, data) {
         _data += data;
-        console.log(data);
+        //console.log(data);
         //Start Paring the data
         $ = cheerio.load(_data);
         var filter_holder = $('.filter-holder').html();
@@ -104,7 +104,7 @@ app.get('/busqueda/:search/:page', function(req, res){
 
     var _url = domain +'search?q=' + replaced + '&page='+page;
 
-    console.log(_url);
+    //console.log(_url);
 
     var options = { url: _url, include: true };
     var _data = '';
@@ -128,9 +128,9 @@ app.get('/busqueda/:search/:page', function(req, res){
         var searchResults = $('.search-results').html();
        // setTimeout(function(){
 
-            //console.log(data);
+            ////console.log(data);
 
-            //console.log($('.results > tbody  > tr').html());
+            ////console.log($('.results > tbody  > tr').html());
 
             $('.results  > tbody > tr').each(function() {
 
@@ -163,13 +163,13 @@ app.get('/busqueda/:search/:page', function(req, res){
                 listSaleDate = $(this).find('.results-last-col .converted-time').text();
                 listLocation = $(this).find('.results-last-col .location-block').text();
 
-                //console.log(listImageUrl);
+                ////console.log(listImageUrl);
 
                 listLot = parseData(listLot);
                 //undefined var
                 if(typeof(listLot) !== undefined || listLot != null ||listLot != '' ){
                     listLot = listLot.replace(/[^\d.]/g, "");
-                    console.log(listLot);
+                    //console.log(listLot);
                 }
 
 
@@ -187,7 +187,7 @@ app.get('/busqueda/:search/:page', function(req, res){
                 }
 
                 dataArray.push(listItem);
-                console.log(dataArray);
+                //console.log(dataArray);
 
             });
 
@@ -207,7 +207,7 @@ app.get('/hotlist', function(req, res){
     //var str = req.params.search;
     //var page = req.params.page;
     //var replaced = str.split(' ').join('+');
-    //console.log(replaced);
+    ////console.log(replaced);
 
     var _url = domain +'search?FilterCodes=A&oc=True&ocN=automobiles&ocR=homepage&cn=a&searchTitle=Automobiles';
     var options = { url: _url, include: true };
@@ -253,13 +253,13 @@ app.get('/hotlist', function(req, res){
             listSaleDate = $(this).find('.results-last-col .converted-time').text();
             listLocation = $(this).find('.results-last-col .location-block').text();
 
-            //console.log(listImageUrl);
+            ////console.log(listImageUrl);
 
             listLot = parseData(listLot);
             //undefined var
             if(typeof(listLot) !== undefined || listLot != null ||listLot != '' ){
                 listLot = listLot.replace(/[^\d.]/g, "");
-                console.log(listLot);
+                //console.log(listLot);
             }
 
 
@@ -277,7 +277,7 @@ app.get('/hotlist', function(req, res){
             }
 
             dataArray.push(listItem);
-            console.log(dataArray);
+            //console.log(dataArray);
 
         });
 
@@ -293,19 +293,19 @@ app.get('/filterResult/:queryString', function(req, res){
     //var str = req.params.search;
     //var page = req.params.page;
     //var replaced = str.split(' ').join('+');
-    //console.log(replaced);
+    ////console.log(replaced);
     var parsed_QS = removeBlank(req.params.queryString);
     var _url = 'http://ww2.copart.com/us/search?q='+parsed_QS;
     var options = { url: _url, include: true };
     var _data = '';
 
-    console.log("query string:"  + req.params.queryString);
-    console.log(_url);
+    //console.log("query string:"  + req.params.queryString);
+    //console.log(_url);
 
     curl.request(options, function (err, data) {
         _data += data;
 
-        console.log(_data);
+        //console.log(_data);
         //Start Paring the data
         $ = cheerio.load(_data);
 
@@ -342,13 +342,13 @@ app.get('/filterResult/:queryString', function(req, res){
             listSaleDate = $(this).find('.results-last-col .converted-time').text();
             listLocation = $(this).find('.results-last-col .location-block').text();
 
-            //console.log(listImageUrl);
+            ////console.log(listImageUrl);
 
             listLot = parseData(listLot);
             //undefined var
             if(typeof(listLot) !== undefined || listLot != null ||listLot != '' ){
                 listLot = listLot.replace(/[^\d.]/g, "");
-                console.log(listLot);
+                //console.log(listLot);
             }
 
 
@@ -366,7 +366,7 @@ app.get('/filterResult/:queryString', function(req, res){
             }
 
             dataArray.push(listItem);
-            //console.log(dataArray);
+            ////console.log(dataArray);
 
         });
 
@@ -386,13 +386,13 @@ app.get('/searchPagination/:search/:page', function(req, res){
         page = 1;
 
     var replaced = str.split(' ').join('+');
-    console.log(page);
+    //console.log(page);
 
     var _url = domain +'search?q=' + replaced+'&Page='+ page;
     var options = { url: _url, include: true };
     var _data = '';
 
-    console.log(_url);
+    //console.log(_url);
 
     curl.request(options, function (err, data) {
         _data += data;
@@ -409,14 +409,14 @@ app.get('/searchPagination/:search/:page', function(req, res){
         //set paging
         var _href, _parsedHref;
         $('.searchpaging > li > a').each(function(){
-            //console.log($(this));
-            //console.log($(this).text());
+            ////console.log($(this));
+            ////console.log($(this).text());
             if(!isNaN($(this).text()) ){
                 $(this).attr('href','/busqueda/'+req.params.search+'/'+$(this).text());
             }else{
                 //_href =  $(this).attr('href');
                 _href =  $(this).text(); //updated from 04/21/2014 Copart removes href attr
-                console.log($(this));
+                //console.log($(this));
                 //_parsedHref = _href.split('Page=');
                 $(this).attr('href','/busqueda/'+req.params.search+'/'+_href);
             }
@@ -456,7 +456,7 @@ app.get('/lote/:lot/all',function(req,res){
 
     var mainObject= {};
 
-    console.log(_url);
+    //console.log(_url);
 
 
     curl.request(options, function (err, data) {
@@ -480,7 +480,7 @@ app.get('/lote/:lot/all',function(req,res){
         var options = { url: _url, include: true };
         var _data = '';
 
-        console.log(_url);
+        //console.log(_url);
 
 
         curl.request(options, function (err, data) {
@@ -510,7 +510,7 @@ app.get('/lote/:lot/all',function(req,res){
             var saleDateStr = false;
 
 
-            //console.log(data);
+            ////console.log(data);
             $('.row').each(function(index){
 
                 if($(this).find('.label').text()=='Odometer'){
@@ -553,7 +553,7 @@ app.get('/lote/:lot/all',function(req,res){
                     _Fuel = $(this).find('.lot-content').text();
                 }else if($(this).find('.label').text()=='Location'){
                     _Location = $(this).find('.lot-content').text();
-                    console.log(_Location);
+                    //console.log(_Location);
                 }else if( $(this).find('.label').text().indexOf("Sale Date") > 0){
                     _SaleDate = $(this).find('.converted-time').attr('data-original-time');
                 }
@@ -581,7 +581,7 @@ app.get('/lote/:lot/all',function(req,res){
             }
 
             mainObject.data = dataObj;
-            //console.log(mainObject);
+            ////console.log(mainObject);
            res.jsonp(mainObject); //JSON.stringify(dataArr)
         });
 
@@ -605,7 +605,7 @@ app.get('/lote/:lot', function(req, res){
     var options = { url: _url, include: true };
     var _data = '';
 
-    console.log(_url);
+    //console.log(_url);
 
 
     curl.request(options, function (err, data) {
@@ -635,7 +635,7 @@ app.get('/lote/:lot', function(req, res){
         var saleDateStr = false;
 
 
-        //console.log(data);
+        ////console.log(data);
         $('.row').each(function(index){
 
             if($(this).find('.label').text()=='Odometer'){
@@ -678,7 +678,7 @@ app.get('/lote/:lot', function(req, res){
                 _Fuel = $(this).find('.lot-content').text();
             }else if($(this).find('.label').text()=='Location'){
                 _Location = $(this).find('.lot-content').find('a').first().html();
-                console.log(_Location);
+                //console.log(_Location);
             }else if( $(this).find('.label').text().indexOf("Sale Date") > 0){
                 _SaleDate = $(this).find('.converted-time').attr('data-original-time');
             }
@@ -729,7 +729,7 @@ app.get('/getCarList/:make/:model/:yearFrom/:yearTo/:page/:optional?*', function
     var options = { url: _url, include: true };
     var _data = '';
 
-    console.log(_url);
+    //console.log(_url);
 
     curl.request(options, function (err, data) {
 
@@ -817,7 +817,7 @@ app.get('/getCarFilters/:make/:model/:yearFrom/:yearTo/:page', function(req, res
     var options = { url: _url, include: true };
     var _data = '';
 
-    console.log(_url);
+    //console.log(_url);
 
     curl.request(options, function (err, data) {
 
@@ -829,11 +829,11 @@ app.get('/getCarFilters/:make/:model/:yearFrom/:yearTo/:page', function(req, res
 
         if(car_filter === null){
             setInterval(function(){
-                console.log(car_filter);
+                //console.log(car_filter);
             },2000)
         }else{
-            console.log(car_filter);
-            console.log('die');
+            //console.log(car_filter);
+            //console.log('die');
         }
 
         setTimeout(function(){
@@ -867,7 +867,7 @@ app.get('/getCarListPagination/:make/:model/:yearFrom/:yearTo/:page', function(r
     var options = { url: _url, include: true };
     var _data = '';
 
-    //console.log(make);
+    ////console.log(make);
 
 
     curl.request(options, function (err, data) {
@@ -885,8 +885,8 @@ app.get('/getCarListPagination/:make/:model/:yearFrom/:yearTo/:page', function(r
         //set paging
         var _href, _parsedHref;
         $('.searchpaging > li > a').each(function(){
-            //console.log($(this));
-            //console.log($(this).text());
+            ////console.log($(this));
+            ////console.log($(this).text());
             if(!isNaN($(this).text()) ){
                 $(this).attr('href','/busquedas/'+req.params.make+'/'+req.params.model+'/'+_yearFrom+'/'+_yearTo+'/'+$(this).text());
             }else{
@@ -897,7 +897,7 @@ app.get('/getCarListPagination/:make/:model/:yearFrom/:yearTo/:page', function(r
 
 
                 _href =  $(this).text(); //updated from 04/21/2014 Copart removes href attr
-                console.log($(this));
+                //console.log($(this));
                 //_parsedHref = _href.split('Page=');
                 //$(this).attr('href','/busqueda/'+req.params.search+'/'+_href);
                 $(this).attr('href','/busquedas/'+req.params.make+'/'+req.params.model+'/'+_yearFrom+'/'+_yearTo+'/'+nextPage);
@@ -923,7 +923,7 @@ app.get('/getCarFilterPagination/:queryString', function(req, res){
     var options = { url: _url, include: true };
     var _data = '';
 
-    console.log('pagination url:' + _url);
+    //console.log('pagination url:' + _url);
 
 
 
@@ -940,8 +940,8 @@ app.get('/getCarFilterPagination/:queryString', function(req, res){
         //set paging
         var _href, _parsedHref;
         $('.searchpaging > li > a').each(function(){
-            console.log($(this));
-            //console.log($(this).text());
+            //console.log($(this));
+            ////console.log($(this).text());
             if(!isNaN($(this).text()) ){
                 $(this).attr('href','#');
                 $(this).addClass('filter_pag');
@@ -1066,14 +1066,14 @@ app.get('/getMotorcicleListPagination/:page', function(req, res){
         //set paging
         var _href, _parsedHref;
         $('.searchpaging > li > a').each(function(){
-            //console.log($(this));
-            //console.log($(this).text());
+            ////console.log($(this));
+            ////console.log($(this).text());
             if(!isNaN($(this).text()) ){
                 $(this).attr('href','/busqueda/'+req.params.search+'/'+$(this).text());
             }else{
                 //_href =  $(this).attr('href');
                 _href =  $(this).text(); //updated from 04/21/2014 Copart removes href attr
-                console.log($(this));
+                //console.log($(this));
                 //_parsedHref = _href.split('Page=');
                 $(this).attr('href','/busqueda/'+req.params.search+'/'+_href);
             }
@@ -1113,7 +1113,7 @@ app.get('/getMotorcicleListPagination/:page', function(req, res){
             var pagingObj ={};
             var _count = 0;
 
-            console.log(_data);
+            //console.log(_data);
 
         });
 
@@ -1151,4 +1151,4 @@ var port = process.env.OPENSHIFT_INTERNAL_PORT || 5000;
 
 //app.listen(port)
 app.listen(process.env.PORT || 5000)
-console.log('Listening on port 5000');
+//console.log('Listening on port 5000');
