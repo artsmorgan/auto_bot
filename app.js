@@ -34,7 +34,15 @@ function removeBlank(str){
     return parse_str;
 }
 
-
+app.get('/models/:make', function(req, res){  
+    var make = req.params.make;  
+    curl.request('http://www.copart.com/us/search/GetModels?make='+make, function (err, data) {
+        var parseData = {
+            doc: JSON.parse(data)
+        };        
+        res.jsonp(parseData);
+    });
+})
 //Routes
 app.get('/lote/:lot',carDetailsCopart.getDetails);
 app.get('/lote/:lot/images', carDetailsCopart.getImages)
